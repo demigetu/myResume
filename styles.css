@@ -1,0 +1,29 @@
+.container {
+  container-type: inline-size;
+  width: 100px;
+  height: 120px;
+}
+
+.wide {
+  width: 600px;
+}
+
+h3 {
+  height: 2rem;
+  margin: 0.5rem;
+}
+
+.card {
+  height: 100%;
+}
+
+.content {
+  background-color: lightblue;
+  height: 100%;
+}
+
+.container {
+  margin: 1rem;
+  border: 2px;
+  overflow: hidden;
+}

@@ -4,29 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Getu DeMissie Resume</title>
+  <!-- link rel="stylesheet" href="styles.css">-->
+
+<!--Internal CSS added in the <head> section of html.-->
+<style>
+body {
+    background-color: lightblue;
+    }
+    
+    .flex-container {
+        display: flex;
+        align-items: center; /* Aligns text vertically centered with the image */
+        font-size: large;
+    }
+    
+    .flex-container img {
+        width: 200px; /* Set image size */
+        height: auto;
+        margin-right: 600px; /* Add some space between the image and text */
+        
+    }
+h1   {
+    color: blue; 
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    }
+h2 {
+    font-family: 'serif'; 
+    font-size: 12px;
+    }
+h3 {
+    font-size: large;
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    }
+.grid-container {
+  display: grid;
+  grid-template-columns:400px auto auto auto;
+  gap: 5px;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.grid-container 
+{
+  background-color: lightblue;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+  font-size: small;
+  font-family: serif;
+  line-height: 1.5
+}
+nav {
+font-family: Verdana;
+font-size: medium;
+font-weight: 700;
+}
+</style>
 </head>
 <body>
-    <img src="/Images/Getu.png" alt="Getu" height="75px" width="75px"/>
-    <h1>Getu DeMissie</h1>
-    <h4>Atlanta Metropolitan</h4>
-    <p>Contact Info</p>
-        <hr>
-        <li><a href="https://www.linkedin.com/in/getudemissie/" target="_blank">linkedin profile!</a></li>
-        <li><a href="mailto:demissgetu@gmail.com">Email:</a></li>
-        <li><a href="tel:+4048440000">Cell:</a></li>
-       
-        <hr>
-    
-    <h3>EDUCATION</h3>
-    <p>
-       <br> Master of Science (MSc) in Information Technology, Central Michigan University, Mount Pleasant, MI
+    <div class="flex-container">
+        <img src="./Images/AI_Image.jpeg" alt="Image">
+        <h1>Getu DeMissie</h1><br>
+    </div>
+    <div>     
+    </div>
+    <div class="container">
+        <div class="container wide">
+        <div class="card">
+        <div class="content">
+            <h2 style="text-align: center; font-family: Verdana; color: blue; font-size: large; font-weight: bold;">Online Resume</h2>
+            <p style="text-align: center; font-family: serif; font-size: small;">Atlanta Metropolitan area || demisgetu@gmail.com || 4048440000 </p> 
+            <a href="https://www.linkedin.com/in/getudemissie/" target="_blank"><img src="./Images/linkedin.png" alt="Website Link" style="width: 40px; height:auto; float: right;"></a>
+            <a href="mailto:demisgetu@gmail.com"><img src="./Images/Email.png" alt="Email Us" style="width: 40px;height:auto; float: right;"></a>
+            <a href="tel:+4048440000"><img src="./Images/mobile.png" alt="Call Us" style="width: 40px; height:auto; float: right;"></a><br>
+        </div>
+        </div>
+    </div>
+    <div>
+        <nav class="nav">
+            <a class="nav-link active" aria-current="page" href="form1.html">Contact Info</a> ||
+            <a class="nav-link" href="./tabel.html">Education</a> || 
+            <a class="nav-link" href="./form2.html">Certifications</a><br><br>
+        </nav>
 
-        <br>Bachelor of Science (BSc), Syracuse University, Syracuse, NY
-
-    </p>
-    <h3> EXPERIENCES</h3>
-    <h3>Project Manager Digital Transformation - VYEO Technology Solutions – Remote	 02/2023- 5/2024 </h3>
-    <p>
+    </div>
+</div>
+</div>
+<div class="grid-container">
+    <div style="font-weight: bold; font-family: Verdana;">SUMMARY</div>
+    <div style="margin: 5px; line-height: 1.25; text-align: left; font-size: small; font-family: serif;">over 16 years of experience in the IT industry, I excel in Project Management, Business Analysis, Defect Management, and Software Quality Assurance. I am proficient in SDLC, Agile (Scrum), and Waterfall methodologies, with a strong track record of managing project deliverables, leading teams, and promoting effective teamwork. My expertise ensures successful outcomes for IT projects.</div>
+  </div>
+<div class="grid-container">
+    <div style="font-weight: bold; font-family: Verdana;">SKILLS</div>
+    <div style="margin: 5px; line-height: 1.25; text-align: left; font-size: small; font-family: serif;">Defect Management, Test Management, Software Testing, ITSM, IT Audit, Waterfall and Agile Project Management Computer System Validation (CSV), Business Analysis, QA Project Management, Vendor Management, e-Commerce, LINUX, XML, Oracle BRM, ERP, Fusion Middleware, Siebel CRM, SoapUI, SOA, AIA, Web Services, Share Point, SQL, Quality Center(ALM),  Teams, Selenium, SharePoint,  JIRA, Confluence, Sail Point IAM, Visio, Postman, API Testing, Microsoft 365, PowerPoint, Windows 11, Microsoft Office</div>
+</div>
+<div class="grid-container">
+    <div style="font-weight: bold; font-family: Verdana;">WORK EXPERIENCES </div>
+    <div style="margin: 5px; line-height: 1.25; text-align: left"><h3>Project Manager Digital Transformation - VYEO Technology Solutions – Remote	 02/2023- 5/2024 </h3>
         <ul>
             <li>Created multiple projects' key project management documents (charters, SOWs, requirements, etc.).</li>
             <li>Managed the end-to-end project lifecycle, ensuring successful delivery.</li>
@@ -39,38 +116,27 @@
             <li>Optimized resource allocation with functional managers and led daily stand-up and defect triage.</li>
             <li>Conducted weekly project management meetings for team alignment.</li>
             <li>Maintained systematic document management and version control.</li>
-              
-    <p>
-     <h3>Project Manager: Operation Support System (OSS) Provisioning Enterprise Testing - Cox Communication – ATLANTA, GA	 01/2021- 01/2023 </h3>
-                      
-         <ul>
-             <li>Successfully led the identification and translation of business requirements by collaborating with diverse stakeholders, project managers, and technical teams</li>
-             <li>Oversaw the full project lifecycle, including testing phases (functional, integration, and pre-production), defect management, and data migration. </li>
-             <li>Streamlined processes using tools like JIRA, ServiceNow, and Postman, while managing vendor agreements and ensuring seamless implementation of business solutions.</li>
-             <li>Key responsibilities included business process modeling, prioritizing requirements, and aligning project outcomes with organizational objectives.</li>
-                
-            
+            </ul>
+            <div style="margin: 5px; line-height: 1.25; text-align: left"><h3>Project Manager: Operation Support System (OSS) Provisioning Enterprise Testing - Cox Communication – ATLANTA, GA	 01/2021- 01/2023 </h3>
+        <ul>
+            <li>Successfully led the identification and translation of business requirements by collaborating with diverse stakeholders, project managers, and technical teams</li>
+            <li>Oversaw the full project lifecycle, including testing phases (functional, integration, and pre-production), defect management, and data migration. </li>
+            <li>Streamlined processes using tools like JIRA, ServiceNow, and Postman, while managing vendor agreements and ensuring seamless implementation of business solutions.</li>
+            <li>Key responsibilities included business process modeling, prioritizing requirements, and aligning project outcomes with organizational objectives.</li>
         </ul>
-    </p>
-    <p>
-        <h3>Project Manager, Data Center Disaster Recovery (DCDR) -    DELTA AIRLINES - ATLANTA, GA    11/2016-04/2020  </h3>
-                         
-            <ul>
-                <li>Supported PMO on the Data Center Disaster Recovery (DCDR) project for Delta Air Lines.</li>
-                <li>Coordinated and facilitated a central Command Center/War Room. </li>
-                <li>Managed project communication through status reports and executive decks.</li>
-                <li>Scheduled and facilitated project-related meetings</li>
-                <li>Initiated and moderated daily defect triages for unresolved defects</li>
-                <li>Coordinated facilitator resources for conflict/defect resolution.</li>
-                <li>Acted as a single escalation point to project leadership and supported project management for large-scale needs.</li>
-                <li>Deployed data replication to applications in the new data center.</li>
-                <li>Delivered monitoring tools for mission-critical applications.</li>
-                                 
-           </ul>
-       </p>
-       <p>
-        <h3>IT Lead System Specialist/SME, VERIZON TELECOMMUNICATION, ATLANTA, GA   10/2013-10/2016   </h3>
-                         
+        <div style="margin: 5px; line-height: 1.25; text-align: left"><h3>Project Manager, Data Center Disaster Recovery (DCDR) - DELTA AIRLINES - ATLANTA, GA 11/2016-04/2020 </h3>
+        <ul>
+            <li>Supported PMO on the Data Center Disaster Recovery (DCDR) project for Delta Air Lines.</li>
+            <li>Coordinated and facilitated a central Command Center/War Room. </li>
+            <li>Managed project communication through status reports and executive decks.</li>
+            <li>Scheduled and facilitated project-related meetings</li>
+            <li>Initiated and moderated daily defect triages for unresolved defects</li>
+            <li>Coordinated facilitator resources for conflict/defect resolution.</li>
+            <li>Acted as a single escalation point to project leadership and supported project management for large-scale needs.</li>
+            <li>Deployed data replication to applications in the new data center.</li>
+            <li>Delivered monitoring tools for mission-critical applications.</li> 
+        </ul>
+        <div style="margin: 5px; line-height: 1.25; text-align: left"><h3>IT Lead System Specialist/SME, VERIZON TELECOMMUNICATION, ATLANTA, GA 10/2013-10/2016 </h3>
             <ul>
                 <li>Provided expertise during sprint planning and estimations.</li>
                 <li>Participated in project kickoff, JAD sessions, and requirement gathering.</li>
@@ -81,15 +147,10 @@
                 <li>Led End-to-End testing with onshore and offshore teams.</li>
                 <li>Reported test metrics to stakeholders and conducted various testing types.</li>
                 <li>Attended scrum and defect triage meetings.</li>
-                <li>Oversaw UAT, certified releases, and conducted sanity tests post-deployment</li>
-
-                                 
-           </ul>
-       </p>
-       <p>
-        <h3>Defect Manager, VERIZON COMMUNICATION, ATLANTA, GA 2010-2013</h3>
-                         
-            <ul>
+                <li>Oversaw UAT, certified releases, and conducted sanity tests post-deployment</li>         
+            </ul>
+            <div style="margin: 5px; line-height: 1.25; text-align: left"><h3>Defect Manager, VERIZON COMMUNICATION, ATLANTA, GA 2010-2013 </h3>
+                <ul>
                 <li>Managed daily defect issues, escalating to resolver groups as </li>
                 <li>Initiated defect processes and communicated with stakeholders.</li>
                 <li>Produced management reports and KPIs for decision-making.</li>
@@ -101,21 +162,13 @@
                 <li>Contributed to corporate governance, change control, and policy enforcement.</li>
                 <li>Collaborated with the IT Problem Management Team to streamline processes.</li>
                 <li>Navigated Agile and Waterfall environments to resolve issues.</li>
-                <li>Demonstrated conflict resolution skills and managed multiple priorities.</li>
-                                                    
+                <li>Demonstrated conflict resolution skills and managed multiple priorities.</li>                                        
            </ul>
-        </P>
-        <p>
-                        
-    <h3>CERTIFICATIONS</h3>
-            <ul>
-                <li>PMP® – PMI Certified Project Management Professional Credential ID 3254626</li>
-                <li>CSM® - Certified Scrum Master - Scrum Alliance Certificate ID: 000600046 </li>
-                <li>CSTE® - Software Test Engineer – Quality Assurance Institute Certified # 4425</li>
-                <li>ITILv3® - Foundation in IT Service Management Certified EXIN Registration# 5289006.20370588</li>
-                <li>Safe Advanced Scrum Master (SASM) – Certification in progress</li>
+        </div>
+        </div> 
 
-           </ul>
-    </p>
-</body>
-</html>
+</body>     
+
+    
+ </html>
+
